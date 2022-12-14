@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <meta name="description" content="" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Elevator Testing Unite api</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/fonts" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.2.min.js"
+      integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+   
+      $.ajax({
+        url: "https://hc-apigw-q.hilti.com/ts/ontrack-int/unite/v1/assets/1459730",
+        type: "GET",
+        headers: {
+          Authorization:
+            "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1FTTNOa0k1UmtGQ01VWkNRa0k1TUVSRE5rRkNOVU16UlRJNFF6UTJSVGRFUVVOQ1FqRXdSQSJ9.eyJodHRwczovL2Nsb3VkLmhpbHRpLmNvbS9jbGllbnRJZCI6Imxqb21LMTQ5Y0FSbnJHZ3F0UDFUQ09DTHEzTmRWaVhYIiwiaHR0cHM6Ly9jbG91ZC5oaWx0aS5jb20vY3VzdG9tZXJfaWQiOiI4OTYwODMiLCJodHRwczovL2Nsb3VkLmhpbHRpLmNvbS9vcmlnaW5fY3VzdG9tZXJfaWQiOiIxMDU0Nzk3MyIsImh0dHBzOi8vY2xvdWQuaGlsdGkuY29tL2F1dGhSZXF1ZXN0SWQiOiI3ZjYzZmVkMS1jZGFhLTQ5NDctYmRhNi1mNDY3YzEzNjBlMjEiLCJodHRwczovL2Nsb3VkLmhpbHRpLmNvbS9sb2dvbklkIjoidGVjaG5pY2FsLXVzZXItZGVtby0wcnpsMGFidDkxdW92cmNvQGFwaS11c2VyLmhpbHRpLmNsb3VkIiwiaHR0cHM6Ly9jbG91ZC5oaWx0aS5jb20vdWlkIjoiYXV0aDB8NjExY2Y1MDM1NzNkMzQwMDcxZTQ1ODhjIiwiaXNzIjoiaHR0cHM6Ly9jbG91ZHNzby11YXQuaGlsdGkuY29tLyIsInN1YiI6ImF1dGgwfDYxMWNmNTAzNTczZDM0MDA3MWU0NTg4YyIsImF1ZCI6WyJ1cm46aGM6YXBpIiwiaHR0cHM6Ly9oaWx0aS1pZG0tdWF0LmV1LmF1dGgwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE2NzEwMTI0MTMsImV4cCI6MTY3MTAxNjAxMywiYXpwIjoibGpvbUsxNDljQVJuckdncXRQMVRDT0NMcTNOZFZpWFgiLCJzY29wZSI6ImFkZHJlc3MgZW1haWwgSEMuUmVxdWVzdC5BbGxTY29wZXMgb2ZmbGluZV9hY2Nlc3Mgb3BlbmlkIHBob25lIHByb2ZpbGUgVFMuT05UcmFjay5DSVMuRVJQLkFsbCBUUy5PTlRyYWNrLlVuaXRlLkFzc2V0cy5SZWFkIFRTLk9OVHJhY2suVW5pdGUuQXNzZXRzLldyaXRlIFRTLk9OVHJhY2suVW5pdGUuTG9jYXRpb25zLlJlYWQgVFMuT05UcmFjay5Vbml0ZS5Mb2NhdGlvbnMuV3JpdGUgVFMuT05UcmFjay5Vbml0ZS5RdHlJdGVtcy5SZWFkIFRTLk9OVHJhY2suVW5pdGUuUXR5SXRlbXMuV3JpdGUgVFMuT05UcmFjay5Vbml0ZS5SZWFkL2Fzc2V0cyBUUy5PTlRyYWNrLlVuaXRlLlJlYWQvY291bnRyaWVzIFRTLk9OVHJhY2suVW5pdGUuUmVhZC9jdXJyZW5jaWVzIFRTLk9OVHJhY2suVW5pdGUuUmVhZC9ncm91cHMgVFMuT05UcmFjay5Vbml0ZS5SZWFkL2xhbmd1YWdlcyBUUy5PTlRyYWNrLlVuaXRlLlJlYWQvbG9jYXRpb25zIFRTLk9OVHJhY2suVW5pdGUuUmVhZC9xdWFudGl0eS1pdGVtLWFsbG9jYXRpb25zIFRTLk9OVHJhY2suVW5pdGUuUmVhZC9xdWFudGl0eS1pdGVtcyBUUy5PTlRyYWNrLlVuaXRlLlJlYWQvc3RhdGVzIFRTLk9OVHJhY2suVW5pdGUuUmVhZC9zdG9jay11bml0cyBUUy5PTlRyYWNrLlVuaXRlLlJlYWQvdHJhbnNmZXJzIFRTLk9OVHJhY2suVW5pdGUuUmVhZC93b3JrZXJzIFRTLk9OVHJhY2suVW5pdGUuV29ya2Vycy5SZWFkIFRTLk9OVHJhY2suVW5pdGUuV29ya2Vycy5Xcml0ZSBUUy5PTlRyYWNrLlVuaXRlLldyaXRlL2Fzc2V0cyBUUy5PTlRyYWNrLlVuaXRlLldyaXRlL2xvY2F0aW9ucyBUUy5PTlRyYWNrLlVuaXRlLldyaXRlL3F1YW50aXR5LWl0ZW0tYWxsb2NhdGlvbnMgVFMuT05UcmFjay5Vbml0ZS5Xcml0ZS9xdWFudGl0eS1pdGVtcyBUUy5PTlRyYWNrLlVuaXRlLldyaXRlL3RyYW5zZmVycyBUUy5PTlRyYWNrLlVuaXRlLldyaXRlL3dvcmtlcnMiLCJndHkiOiJwYXNzd29yZCJ9.OjZWmlWC5ENGUZnGLxsXux1lXMP5k7dRSlEmWoVeN5CgadPBTHMtZ-fhJJoISltM9ZEpjumKz1GcwWdZ-KGu9PLfMwTaw9XHwTej4Q2Y-j-2vaThlrWDMEca62BaQC5ljpKaozXCyvXD4lxbdVrIs291P7F7DQW8tL9izf3orfJfFXMdBbk8nLjIeq7fX0Zinw8IklhWkA5u9Rvm80tyvoq12mFw1sgb7_37w6iE3kwiCCFrm_Uoe_x33LeDpmkdT1s3qTJWZPlHTADP78_5EgmTppj-dI_Gv-vbfDlBTeECEz0laTvGd6z2wgzmf_xzdEXolOyJPIlkuMrNh1U3kA",
+        },
+      }).done(function (res) {
+        console.log(res);
+      });
+    </script>
+  </head>
+
+  <body>
+    <h1>Testing...</h1>
+  </body>
+</html>
